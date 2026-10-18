@@ -20,7 +20,7 @@ const projectList = [
         image: "assets/projects/portfolio.png",
         liveLink: "https://niyatijaiin.github.io/Portfolio-Website/",
         githubLink: "https://github.com/NiyatiJaiin/Portfolio-Website"
-    }
+    },
     {
         id: 3,
         number: "03",
