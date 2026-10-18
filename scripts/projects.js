@@ -8,7 +8,7 @@ const projectList = [
         techStack: ["HTML", "CSS", "Javascript"],
         image: "assets/projects/ecom.png",
         liveLink: "#",
-        githubLink: "#"
+        githubLink: "https://github.com/NiyatiJaiin/ECOM-Website"
     },
     {
         id: 2,
@@ -18,9 +18,33 @@ const projectList = [
         description: "Designed and developed a personal portfolio website to showcase projects, skills, and experience. Built with a clean and responsive UI, including sections like About, Skills, Projects, and Contact, focusing on user-friendly navigation and modern design.",
         techStack: ["HTML", "CSS", "Javascript"],
         image: "assets/projects/portfolio.png",
-        liveLink: "#",
-        githubLink: "#"
+        liveLink: "https://niyatijaiin.github.io/Portfolio-Website/",
+        githubLink: "https://github.com/NiyatiJaiin/Portfolio-Website"
     }
+    {
+        id: 3,
+        number: "03",
+        name: "Job Portal",
+        title: "Job Portal",
+        description: "Developed a job portal web application with separate functionality for students and recruiters. Implemented user authentication, job listings, company management, resume uploads, and job application workflows. Built the frontend using React.js and Redux, with a backend powered by Node.js, Express.js, and MongoDB.",
+        techStack: ["React.js", "Redux", "Node.js", "Express.js", "MongoDB", "JWT"],
+        image: "assets/projects/Job-Portal.png",
+        liveLink: "#",
+        githubLink: "https://github.com/NiyatiJaiin/Job-Portal"
+    },
+    
+{
+    id: 4,
+    number: "04",
+    name: "AgroTrade",
+    title: "Agricultural Products Marketplace",
+    description: "Designed and developed a responsive web-based marketplace for agricultural products. Implemented user login and signup, product search, shopping cart management, checkout interactions, and toast notifications using HTML, CSS, and JavaScript. Used localStorage to manage user session and cart data, creating a simple and user-friendly shopping experience.",
+    techStack: ["HTML", "CSS", "JavaScript", "LocalStorage", "Responsive Web Design"],
+    image: "assets/projects/AgroTrade.png",
+    liveLink: "https://niyatijaiin.github.io/AgroTrade/",
+    githubLink: "https://github.com/NiyatiJaiin/AgroTrade"
+}
+
 ];
 
 const projects = document.querySelector(".projects");
